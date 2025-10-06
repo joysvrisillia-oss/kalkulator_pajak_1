@@ -1,29 +1,42 @@
-name: untitled
-description: A new Flutter project.
+name: pajakin_aja
+description: Aplikasi Flutter untuk menghitung pajak pribadi dan usaha sesuai tarif terbaru Indonesia 2025.
 
-publish_to: 'none'
-
+# Versi aplikasi
 version: 1.0.0+1
 
+# Kompatibilitas versi Dart SDK
 environment:
   sdk: '>=3.0.0 <4.0.0'
 
+# =========================================================
+# DEPENDENCIES — semua library yang dibutuhkan aplikasi
+# =========================================================
 dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  # Plugin untuk menyimpan data lokal (riwayat pajak)
+  shared_preferences: ^2.2.2
 
+  # Icon library tambahan (default bawaan Flutter)
+  cupertino_icons: ^1.0.8
+
+# =========================================================
+# DEV DEPENDENCIES — hanya digunakan saat pengujian/debug
+# =========================================================
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  # Linter untuk menjaga kualitas kode
+  flutter_lints: ^3.0.1
 
+# =========================================================
+# KONFIGURASI FLUTTER
+# =========================================================
 flutter:
   uses-material-design: true
 
+  # Folder aset gambar, logo, dll (optional, bisa tambah nanti)
   assets:
-    - assets/images/silica sand.png
-    - assets/images/process.png
-    - assets/images/hasil.png
+    - assets/
