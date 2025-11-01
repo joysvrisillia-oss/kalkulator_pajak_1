@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'Home_Page.dart';
-import 'Kalkulator_Pajak.dart';
-import 'Riwayat_Perhitungan.dart';
 import 'Material.dart';
 
 void main() {

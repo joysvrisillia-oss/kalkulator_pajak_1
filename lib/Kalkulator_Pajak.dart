@@ -112,7 +112,7 @@ class _KalkulatorPajakState extends State<KalkulatorPajak> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               DropdownButtonFormField<String>(
-                value: _jenisPajak,
+                initialValue: _jenisPajak,
                 items: const [
                   DropdownMenuItem(value: 'PPh Pribadi', child: Text('PPh Pribadi')),
                   DropdownMenuItem(value: 'Pajak Bisnis (UMKM)', child: Text('Pajak Bisnis (UMKM)')),
